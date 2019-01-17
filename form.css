@@ -1,0 +1,129 @@
+/* Fieldset styles */
+fieldset {
+    border: 0px;
+    margin: 5px;
+    float: left;
+    width: 90%;
+    padding-left: 5%;
+}
+
+fieldset legend {
+    background-color: blue;
+    color: white;
+    margin: 10px 0px;
+    text-indent: 20px;
+    width: 100%;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Label styles */
+label {
+    display: block;
+    clear: left;
+    float: left;
+    font-size: 0.8em;
+    text-align: right;
+    margin: 2px 5px;
+    width: 30%;
+}
+
+/* Input styles */
+input {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    width: 60%;
+    margin: 2px 0px;
+}
+
+/* Select styles */
+select {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 2px;
+}
+
+/* Textarea styles */
+textarea {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    height: 75px;
+    width: 60%;
+}
+
+/* Option button styles */
+fieldset.optionGroup {
+    width: 60%;
+    margin: 0px;
+}
+
+fieldset.optionGroup label {
+    display: inline;
+    float: none;
+    margin: 0px;
+    width: 30px;
+}
+
+fieldset.optionGroup input {
+    display: inline;
+    float: none;
+    margin: 0px 20px 0px 0px;
+    width: 20px;
+}
+
+input[type="radio"] {
+    display: inline;
+    float: none;
+    margin: 0px;
+    width: 20px;
+}
+
+/* Checkbox styles */
+#warranty {
+    color: rgb(233, 69, 0);
+    float: none;
+    margin: 10px auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 90%;
+}
+
+#warranty input {
+    display: inline;
+    float: none;
+    width: 20px;
+}
+
+/* Form element action styles */
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: rgb(255, 204, 204);
+}
+
+input:focus:invalid {
+    background: rgb(255, 204, 204) url(../images/stop.png) bottom right no-repeat;
+}
+
+input:focus:valid {
+    background: rgb(215, 255, 215) url(../images/go.png) bottom right no-repeat;
+}
+
+/* Button styles */
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    display: inline;
+    background-color: blue;
+    color: white;
+    float: none;
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
