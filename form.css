@@ -61,21 +61,21 @@ fieldset.optionGroup {
 }
 
 fieldset.optionGroup label {
-    display: inline;
+    display: block;
     float: none;
     margin: 0px;
     width: 30px;
 }
 
 fieldset.optionGroup input {
-    display: inline;
+    display: block;
     float: none;
     margin: 0px 20px 0px 0px;
     width: 20px;
 }
 
 input[type="radio"] {
-    display: inline;
+    display: block;
     float: none;
     margin: 0px;
     width: 20px;
@@ -92,7 +92,7 @@ input[type="radio"] {
 }
 
 #warranty input {
-    display: inline;
+    display: block;
     float: none;
     width: 20px;
 }
@@ -117,7 +117,7 @@ input:focus:valid {
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-    display: inline;
+    display: block;
     background-color: blue;
     color: white;
     float: none;

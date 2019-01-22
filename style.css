@@ -18,6 +18,12 @@ nav {
     font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
 }
 
+div.wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 body {
     background: rgb(153, 204, 255);
@@ -26,21 +32,18 @@ body {
 
 
 header {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    display: block;
+    margin: 0 auto;
 }
 
 header img {
-    border-width: 0px;
+    display: block;
+    margin: 0 auto;
 }
 
 
-
 nav {
-    position: absolute;
-    top: 90px;
-    left: 10px;
+    float: left;
     list-style-type: none;
     width: 155px;
     padding: 10px 10px 0px 0px;
@@ -51,6 +54,7 @@ nav {
 }
 
 nav li {
+    list-style-type: none;
     line-height: 0.9em;
 }
 
@@ -71,9 +75,7 @@ li.newgroup {
 
 
 section {
-    position: absolute;
-    top: 90px;
-    left: 185px;
+    float: left;
     width: 520px;
     padding: 10px 10px 0px 0px;
     border-top: 1px solid blue;
@@ -105,11 +107,4 @@ address {
     clear: right;
     padding: 5px 0px 20px;
     margin-top: 20px;
-}
-
-div.content {
-    max-width: 500px;
-    margin: auto;
-    background: white;
-    padding: 10px;
 }
