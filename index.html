@@ -302,29 +302,40 @@
                             <option value="1 TB">1 TB</option>
                             <!-- End of the select element -->
                         </select>
-
+                        <!-- This creates the label element with a text that says "DVD Burner" -->
                         <label>DVD Burner</label>
+                        <!-- This creates the fieldset element with a class of "optionGroup" -->
                         <fieldset class="optionGroup">
+                            <!-- This creates the label element with a fior called "dvdy" and a texrt that says "Include (+$25)" -->
                             <label for="dvdy">Include (+$25)</label>
-                            <input type="radio" name="dvd" id="dvdy" value="yes" required="required" />
+                            <!-- this creartes the input element with a type of "radio" a name called "dvd" a value of "yes" and it is "required" to fill out this part of information -->
+                            <input type="radio" name="dvd" id="dvdy" value="yes" required />
+                            <!-- This creaters the label element with a for called "dvdn" and the texrt says "Don't Include" -->
                             <label for="dvdn">Don't Include</label>
-                            <input type="radio" name="dvd" id="dvdn" value="no" required="required" />
+                            <!-- Thbis creates the input element with a type of "radio" a name called "dvd" a id called "dvdn" a value of "no" and it is "required to fill out this part of information" -->
+                            <input type="radio" name="dvd" id="dvdn" value="no" required />
+                            <!-- End of the fieldset element -->
                         </fieldset>
-
+                        <!-- This creates the label element with a text that says "TV Tuiner Card" -->
                         <label>TV Tuner Card</label>
+                        <!-- This creates the fieldset element with a class called "optionGroup" -->
                         <fieldset class="optionGroup">
+                            <!-- Tbis creates the label element with a for called "tunery" and the text says "Include (+$75)" -->
                             <label for="tunery">Include (+$75)</label>
-                            <input type="radio" name="tuner" id="tunery" value="yes" required="required" />
+                            <!-- This creates the input element with a type of "radio" a name called "tuner" a id called "tunery" a value of "yes" and it isz "reqyuired" to fill out this part of information -->
+                            <input type="radio" name="tuner" id="tunery" value="yes" required />
+                            <!-- This creates the label element with a for called "tunern" with a tex that says "Dont Include" -->
                             <label for="tunern">Don't Include</label>
-                            <input type="radio" name="tuner" id="tunern" value="no" required="required" />
+                            <!-- This creates the input element with a type of "radio" a name called "tuner" a id called "tiunern" a value of "yes" a value of "no" and it is required to fill out this part of information -->
+                            <input type="radio" name="tuner" id="tunern" value="no" required />
                         </fieldset>
 
                         <label>Media Card Reader</label>
                         <fieldset class="optionGroup">
                             <label for="mCardy">Include (+$25)</label>
-                            <input type="radio" name="mCard" id="mCardy" value="yes" required="required" />
+                            <input type="radio" name="mCard" id="mCardy" value="yes" required />
                             <label for="mCardn">Don't Include</label>
-                            <input type="radio" name="mCard" id="mCardn" value="no" required="required" />
+                            <input type="radio" name="mCard" id="mCardn" value="no" required />
                         </fieldset>
 
                         <label id="warranty">
@@ -336,7 +347,7 @@
                     <fieldset id="info">
                         <legend>Additional Information</legend>
                         <label for="email">Contact Email</label>
-                        <input type="email" name="email" id="email" required="required" />
+                        <input type="email" name="email" id="email" required />
 
                         <label>Special Notes</label>
                         <textarea name="notes" id="notes"></textarea>
