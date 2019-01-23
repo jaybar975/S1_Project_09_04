@@ -106,11 +106,11 @@ textarea:focus {
 }
 
 input:focus:invalid {
-    background: rgb(255, 204, 204) url(../images/stop.png) bottom right no-repeat;
+    background: rgb(255, 204, 204) url(mc_stop.png) bottom right no-repeat;
 }
 
 input:focus:valid {
-    background: rgb(215, 255, 215) url(../images/go.png) bottom right no-repeat;
+    background: rgb(215, 255, 215) url(mc_go.png) bottom right no-repeat;
 }
 
 /* Button styles */

@@ -1,3 +1,6 @@
+@charset "utf-8";
+
+/* This sets the article, figure, figcaption, footer, hgroup, header, section, and nav element with a display of block */
 article,
 figure,
 figcaption,
@@ -9,7 +12,7 @@ nav {
     display: block;
 }
 
-
+/* This sets the element of a margin to 0 pixels, a padding of 0 pixels, a line height of 1.2 em, a color of black, and the font family is set to Trebuchet MS, Arial, Verdana, sans-serif */
 * {
     margin: 0px;
     padding: 0px;
@@ -18,30 +21,31 @@ nav {
     font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
 }
 
+/* This sets the div element with a class of wrapper with a position of absolute, shifted to the left 50 percent, and the transform is translateX negative 50 percent */
 div.wrapper {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
-
+/* This sets the body element with a background of red blue green of 153, 204, 255 */
 body {
     background: rgb(153, 204, 255);
 }
 
-
-
+/* This sets the header element with a display of block and a margin of 0 and auto */
 header {
     display: block;
     margin: 0 auto;
 }
 
+/* This sets the header and image element with a display of block and a margin of 0 and auto */
 header img {
     display: block;
     margin: 0 auto;
 }
 
-
+/* This sets the nav element with a float to the left, a list style type of n0one, a width of 155 pixels, a padding of 10 pixels, 10 pixels, 0 pixels, and 0 pixels, a border top of 1 pixel solid and the color blue, a border right to 3 pixels, solid and the color blue, a border radius of 20 pixels, and finally the text indent of 10 pixels */
 nav {
     float: left;
     list-style-type: none;
@@ -53,27 +57,30 @@ nav {
     text-indent: 10px;
 }
 
+/* This sets the nav and listed element with a list style typoe of none and a line height of 0.9 em */
 nav li {
     list-style-type: none;
     line-height: 0.9em;
 }
 
+/* This sets the nav and the ancker tag element with a font size of 14 pixels, a color of blue, and the text decoration of none */
 nav a {
     font-size: 14px;
     color: blue;
     text-decoration: none;
 }
 
+/* This sets the nav and the ancker tag element with a pseudo class of hover with the color of white */
 nav a:hover {
     color: white;
 }
 
+/* This sets the listed element with a class of newgroup with a margin top of 10 pixels  */
 li.newgroup {
     margin-top: 10px;
 }
 
-
-
+/* This sets the section element with a float to the left, a width of 520 pixels, a padding of 10 pixels, 10 pixels, 0 pixels, and 0 pixels, a border top of 1 pixel solid and the color blue, a border right of 3 pixels soid and the color blue and finally the border radius of 40 pixels */
 section {
     float: left;
     width: 520px;
@@ -83,6 +90,7 @@ section {
     border-radius: 40px;
 }
 
+/* This sets the section and the heading one element with the color of red blue green of 175, 72, 28, a font family of Century Gothic and sans serif, a font size of 1.8 em, a letter spacing of 2 pixels, and finally the text align is set to center */
 section h1 {
     color: rgb(175, 72, 28);
     font-family: 'Century Gothic', sans-serif;
@@ -91,11 +99,13 @@ section h1 {
     text-align: center;
 }
 
+/* This sets the section and the p element with a font size of 14 pixels and the margin bottom is set to 10 pixels */
 section p {
     font-size: 14px;
     margin-bottom: 10px;
 }
 
+/* This sets the address element with a font style of normal, a text decoration or small caps, the color to blue, a font size of 10 pixels, a text align set to center, a letter spacing to 3 pixels,a border top of 1 pixel solid and the color blue, a clear to the right, a padding of 5 pixels, 0 pixels, and 20 pixels, and finally a margin top 20 pixels  */
 address {
     font-style: normal;
     text-decoration: small-caps;
